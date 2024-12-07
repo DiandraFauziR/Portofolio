@@ -356,9 +356,11 @@ header nav a:hover {
     height: 364px;
     background: url(img/img.png);
     border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
     margin: 30px ;
     margin-left: 80px;
-    box-shadow: 0 0 12px black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .about-content p{
@@ -403,13 +405,13 @@ th {
 .footer{
     margin: 0 auto;
     width: 1225px;
-    padding-bottom: 80px;
-    padding-top: 110px;
+    padding-bottom: 50px;
+    padding-top: 100px;
     font-family: 'Segoe UI', sans-serif;
     text-align: center;
 }
 
- /* HP */
+ /* HANDPHONE */
  
  @media only screen and (max-width: 600px) {
 
@@ -428,11 +430,11 @@ th {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.326), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
     }
     header img {
-        width: 95px;
-        padding: 0px 20px;
+        width: 75px;
+        padding: 0px 15px;
     }
     header nav {
-        display: flex;
+        display: none;
         align-items: center;
         gap: 1rem;
         list-style: none;
@@ -459,7 +461,7 @@ th {
     .container{
         margin: 0 auto;
         width: 500px;
-        padding: 20px;
+        padding: 15px;
         padding-top: 125px;
         font-family: 'Segoe UI', sans-serif;
     }
@@ -467,11 +469,11 @@ th {
     /* Home */
 
     .home p{
-        font-size: 10px;
+        font-size: 20px;
         text-align: center;
     }
     .home h1{
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
     }
     .home h2{
@@ -486,19 +488,19 @@ th {
         display: inline-block;
         margin-bottom: 15px;
         margin-top: 10px;
-        margin-left: 130px;
+        margin-left: 150px;
     }
 
-    .home img{
-        width: 70px;
-        height: 70px;
-        float: right;
+    .home .img{
+        width: 275px;
+        height: 275px;
         position: relative;
         padding: 10px;
-        margin-bottom: 2.5rem;
-        top: -110px;
+        margin-bottom: 2.5rem; 
+        margin-top: 250px; 
+        top: 75px;
         border-radius: 20px;
-        margin-top: 250px;
+       
     }
 
     .c{
